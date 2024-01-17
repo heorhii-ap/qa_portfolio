@@ -443,7 +443,7 @@ Mindmap выполнена в сервисе Xmind.<br>
 
 [В начало](#начало)
 
-## Cпринт 2 - Тестирование веб-приложений
+## Cпринт 2 - Тестирование веб-приложений <a name="спринт-2"></a>
 
 :black_medium_small_square: Принципы работы веб-приложения :black_medium_small_square: Клиент-серверная архитектура :black_medium_small_square: Frontend и Backend :black_medium_small_square: URL :black_medium_small_square: HTTP и HTTPS :black_medium_small_square: Cookie :black_medium_small_square: Local Storage :black_medium_small_square: Cache Storage :black_medium_small_square: Тестирование интерфейса :black_medium_small_square: Тестирование валидации :black_medium_small_square: Тестирование вёрстки :black_medium_small_square: Кроссплатформенное тестирование :black_medium_small_square: Кроссбраузерное тестирование :black_medium_small_square: Decision Table :black_medium_small_square: Pairwise Testing :black_medium_small_square: Figma :black_medium_small_square: DevTools :black_medium_small_square: Charles :black_medium_small_square: Баг-трекинговая система YouTrack
 
