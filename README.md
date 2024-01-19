@@ -16,7 +16,7 @@
 
 [Базы данных и консоль](#спринт-4)
 
-:black_medium_small_square: Консоль :black_medium_small_square: CLI :black_medium_small_square: Linux :black_medium_small_square Terminal :black_medium_small_square CygWin :black_medium_small_square Git Bash :black_medium_small_squar SSH black_medium_small_squar ER-диаграммы :black_medium_small_squar SQL :black_medium_small_squar PostgreSQL
+:black_medium_small_square: Консоль :black_medium_small_square: CLI :black_medium_small_square: Linux :black_medium_small_square: Terminal :black_medium_small_square: CygWin :black_medium_small_square: Git Bash :black_medium_small_squar: SSH :black_medium_small_squar: ER-диаграммы :black_medium_small_squar: SQL :black_medium_small_squar: PostgreSQL
 
 ## Cпринт 1 - Основы тестирования и проектирование тестов <a name="спринт-1"></a>
 
@@ -8755,9 +8755,7 @@ https://github.com/heorhii-ap/sprint-3/assets/143074323/a6dd4984-be0b-4344-a5be-
 
 ## Cпринт 4 - Базы данных и консоль <a name="спринт-4"></a>
 
-### Постановка задачи
-
-**Консоль**
+### Постановка задачи (Консоль)
 
 *Задание 1*
 
@@ -8797,7 +8795,7 @@ https://github.com/heorhii-ap/sprint-3/assets/143074323/a6dd4984-be0b-4344-a5be-
 
 4. тексты файлов 400.txt и 500.txt
 
-### Решение
+### Решение (Консоль)
 
 #### Задание 1
 
@@ -8812,7 +8810,6 @@ $ grep -R ^233.201.
 
 ```
 233.201.188.154 - - [18/12/2019:21:46:01 +0000] "DELETE /events HTTP/1.1" 403 3971
-
 233.201.182.9 - - [21/12/2019:21:56:20 +0000] "PATCH /users HTTP/1.1" 400 4118
 ```
 
@@ -8829,7 +8826,6 @@ $ mkdir bug1/events
 
 ```
 $ grep -R 3[01]/12/2019:21:3[0123456789]:[012345][0123456789] > main.txt
-
 $ mv main.txt ~/bug1
 ```
 
@@ -8837,9 +8833,7 @@ $ mv main.txt ~/bug1
 
 ```
 $ grep " 400 " main.txt > 400.txt
-
 $ grep " 500 " main.txt > 500.txt
-
 $ mv 400.txt 500.txt ./events/
 ```
 
@@ -9027,7 +9021,7 @@ apache_2019-12-30.txt:77.101.138.151 - - [30/12/2019:21:39:57 +0000] "PUT /lists
 
 </details><br>
 
-**База данных**
+### Постановка задачи (База данных)
 
 <details><summary>Описание данных</summary><br>
 
@@ -9070,7 +9064,7 @@ apache_2019-12-30.txt:77.101.138.151 - - [30/12/2019:21:39:57 +0000] "PUT /lists
 
 В базе данных нет прямой связи между таблицами trips и weather_records. Связать эти таблицы можно по времени начала поездки (```trips.start_ts```) и моменту погодных наблюдений (```weather_records.ts```). 
 
-</details><br>
+</details>
 
 *Задание 1*
 
@@ -9140,7 +9134,7 @@ apache_2019-12-30.txt:77.101.138.151 - - [30/12/2019:21:39:57 +0000] "PUT /lists
 
 2. запрос, которым удалось решить задачу
 
-### Решение
+### Решение (База данных)
 
 #### Задание 1
 
@@ -9157,7 +9151,7 @@ FROM
 
 #### Задание 2
 
-<details><summary>Список компаний с числом автомобилей меньше 100</summary><br>
+<details><summary>Список компаний с числом автомобилей меньше 100</summary>
 
 ```
 Nova Taxi Affiliation Llc
@@ -9212,7 +9206,7 @@ Leonard Cab Co
 Chicago Star Taxicab                         
 3011 - 66308 JBL Cab Inc. 
 ```
-</details><br>
+</details>
 
 Запрос, которым удалось решить задачу
 
@@ -9230,11 +9224,11 @@ ORDER BY
 
 #### Задание 3
 
-<details><summary>Таблица с данными за указанный период</summary><br>
+<details><summary>Таблица с данными за указанный период</summary>
 
 ![table_3](https://github.com/heorhii-ap/sprint-4/assets/143074323/585faeaf-4854-446c-aa73-a23a912e7ec6)
 
-</details><br>
+</details>
 
 Запрос, которым удалось решить задачу
 
@@ -9252,11 +9246,11 @@ WHERE
 ```
 #### Задание 4
 
-<details><summary>Таблица с данными за указанный период</summary><br>
+<details><summary>Таблица с данными за указанный период</summary>
 
 ![table_4](https://github.com/heorhii-ap/sprint-4/assets/143074323/b4178a76-f650-4de7-ad19-22957c7a7680)
 
-</details><br>
+</details>
 
 Запрос, которым удалось решить задачу
 
