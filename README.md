@@ -16,7 +16,7 @@
 
 [Базы данных и консоль](#спринт-4)
 
-:black_medium_small_square: Консоль :black_medium_small_square: CLI :black_medium_small_square: Linux :black_medium_small_square: Terminal :black_medium_small_square: CygWin :black_medium_small_square: Git Bash :black_medium_small_squar: SSH :black_medium_small_squar: ER-диаграммы :black_medium_small_squar: SQL :black_medium_small_squar: PostgreSQL
+:black_medium_small_square: Консоль :black_medium_small_square: CLI :black_medium_small_square: Linux :black_medium_small_square: Terminal :black_medium_small_square: CygWin :black_medium_small_square: Git Bash :black_medium_small_square: SSH :black_medium_small_square: ER-диаграммы :black_medium_small_square: SQL :black_medium_small_square: PostgreSQL
 
 ## Cпринт 1 - Основы тестирования и проектирование тестов <a name="спринт-1"></a>
 
