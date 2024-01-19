@@ -8795,7 +8795,7 @@ https://github.com/heorhii-ap/sprint-3/assets/143074323/a6dd4984-be0b-4344-a5be-
 
 4. тексты файлов 400.txt и 500.txt
 
-### Решение (Консоль)
+### Решение
 
 #### Задание 1
 
@@ -9019,9 +9019,9 @@ apache_2019-12-30.txt:196.18.151.117 - - [30/12/2019:21:39:55 +0000] "PUT /event
 apache_2019-12-30.txt:77.101.138.151 - - [30/12/2019:21:39:57 +0000] "PUT /lists HTTP/1.1" 500 2194
 ```
 
-</details><br>
+</details>
 
-### Постановка задачи (База данных)
+### Постановка задачи (SQL)
 
 <details><summary>Описание данных</summary><br>
 
@@ -9134,7 +9134,7 @@ apache_2019-12-30.txt:77.101.138.151 - - [30/12/2019:21:39:57 +0000] "PUT /lists
 
 2. запрос, которым удалось решить задачу
 
-### Решение (База данных)
+### Решение
 
 #### Задание 1
 
@@ -9151,7 +9151,7 @@ FROM
 
 #### Задание 2
 
-<details><summary>Список компаний с числом автомобилей меньше 100</summary>
+<details><summary>Список компаний с числом автомобилей меньше 100</summary><br>
 
 ```
 Nova Taxi Affiliation Llc
@@ -9224,7 +9224,7 @@ ORDER BY
 
 #### Задание 3
 
-<details><summary>Таблица с данными за указанный период</summary>
+<details><summary>Таблица с данными за указанный период</summary><br>
 
 ![table_3](https://github.com/heorhii-ap/sprint-4/assets/143074323/585faeaf-4854-446c-aa73-a23a912e7ec6)
 
@@ -9246,7 +9246,7 @@ WHERE
 ```
 #### Задание 4
 
-<details><summary>Таблица с данными за указанный период</summary>
+<details><summary>Таблица с данными за указанный период</summary><br>
 
 ![table_4](https://github.com/heorhii-ap/sprint-4/assets/143074323/b4178a76-f650-4de7-ad19-22957c7a7680)
 
